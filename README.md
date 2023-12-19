@@ -1,7 +1,8 @@
+
 ## Link a competencia de Kaggle
 
-
 - [Binary Classification of VPN Proxy IP Address](https://www.kaggle.com/competitions/vpn-classification/overview)
+![Kaggle Competition](https://github.com/pablomoko/Machine-Learning-Kaggle/raw/main/kaggle.png)
 
 
 ## Baseline (Perceptron)
@@ -28,7 +29,7 @@
 - Elegí hacer este modelo porque Random Forest puede manejar conjuntos de datos desequilibrados, lo que significa que puede trabajar bien cuando las clases objetivo no tienen el mismo número de muestras.
 - Este modelo (RandomForest) es el mejor porque el F1 Val dio más alto que el F1 val del modelo 2 (XGB).
 - F1 - Val : 0.6044444444444445
-- F1 - Test : 0.52986
+- F1 - Test : 0.54545
 - Features:
   - Attack Service (nueva feature) | OHE | Se realiza OHE y se agrupa la suma de los servicios de ataques por IP.
   - Attack type (nueva feature) | OHE | Se realiza OHE, se suma la cantidad de tipos de ataque y se normalizan para representar las proporciones de ataques por IP.
